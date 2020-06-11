@@ -103,7 +103,7 @@ objects:
         - postgresql
         from:
           kind: ImageStreamTag
-          name: postgresql:${DATABASE_VERSION}
+          name: postgres:${DATABASE_VERSION}
           namespace: openshift
       type: ImageChange
     - type: ConfigChange
